@@ -2,7 +2,7 @@
   "name": "news-scraper",
   "version": "1.0.0",
   "description": "MongoDB News Scraper",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "git repository (https://github.com/haleylanebrown/news-scraper)"
   },
