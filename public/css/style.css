@@ -1,0 +1,52 @@
+body {
+    padding-top: 70px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+    background-color: #e3ebdc;
+}
+
+.mainHeader {
+    text-align: center;
+    padding: 15%;
+    font-family: 'Cinzel', serif;
+    background-image: url("https://www.chcseia.com/wp-content/uploads/2018/06/newspaper-and-coffee-on-table.jpg");
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+body {
+    padding-top: 30px;
+    background: #00213c
+}
+
+h1 {
+    font-size: 50px;
+    color:indianred;
+    background: rgb(230, 230, 230);
+    background:rgba(230, 230, 230, 0.8);
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.navbar-default {
+    border-bottom: solid #00213c 3px;
+}
+
+#scraperTitle {
+    color: indianred;
+    font-family: 'Cinzel', serif;
+}
