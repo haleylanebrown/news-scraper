@@ -43,11 +43,9 @@ app.set("view engine", "handlebars");
 mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds145786.mlab.com:45786/heroku_lb08xd6z");
 // mongoose.connect("mongodb://localhost/mongoscraper");
 
-// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
-
 var db = mongoose.connection;
 
-// mongoose.connect(MONGODB_URI);
+
 
 // Show any mongoose errors
 db.on("error", function(error) {
